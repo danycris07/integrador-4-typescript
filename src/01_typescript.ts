@@ -1,5 +1,5 @@
 // Variables con sus tipos de datos
-
+export {};
 let nombre: string = "Jonathan";
 let edad: number = 20;
 let estudiante: boolean = true;

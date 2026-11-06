@@ -1,5 +1,5 @@
 // Crear un enum
-
+export {};
 enum Estado {
     ACTIVO,
     INACTIVO,

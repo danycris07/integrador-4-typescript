@@ -1,5 +1,5 @@
 // Funcion con parametros y retorno
-
+export {};
 function sumar(a: number, b: number): number {
     return a + b;
 }

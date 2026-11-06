@@ -1,5 +1,5 @@
 // Funcion para mostrar un mensaje
-
+export {};
 function mostrarMensaje(mensaje: string): void {
     console.log(mensaje);
 }

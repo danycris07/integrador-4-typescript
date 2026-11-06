@@ -1,5 +1,5 @@
 // Crear una interfaz
-
+export {};
 interface Usuario {
     nombre: string;
     edad: number;

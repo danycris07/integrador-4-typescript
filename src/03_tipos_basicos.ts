@@ -1,5 +1,5 @@
 // Tipos basicos
-
+export {};
 let nombre: string = "Pedro";
 let edad: number = 25;
 let activo: boolean = true;
