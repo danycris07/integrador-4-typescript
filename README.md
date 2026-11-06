@@ -298,63 +298,6 @@ Para ejecutar un archivo compilado:
 ```bash
 node dist/03_tipos_basicos.js
 ```
-
-## Entrega mediante Git y GitHub
-
-La consigna pide trabajar en la rama `develop` y después unirla con `main`.
-
-Si todavía no inicializaste el repositorio, podés utilizar estos comandos desde la carpeta del proyecto:
-
-```bash
-git init
-git branch -M main
-git commit --allow-empty -m "Inicializar repositorio"
-git switch -c develop
-```
-
-Después de crear o modificar cada archivo, realizar su commit. Por ejemplo:
-
-```bash
-git add README.md
-git commit -m "Agregar investigacion de TypeScript"
-
-git add src/01_typescript.ts
-git commit -m "Agregar ejemplo de TypeScript"
-
-git add src/02_proyecto.ts
-git commit -m "Agregar ejemplo de proyecto"
-
-git add src/03_tipos_basicos.ts
-git commit -m "Agregar ejemplos de tipos basicos"
-
-git add src/04_funciones.ts
-git commit -m "Agregar ejemplos de funciones"
-
-git add src/05_interfaces_type.ts
-git commit -m "Agregar ejemplos de interfaces y type"
-
-git add src/06_enums_literales.ts
-git commit -m "Agregar ejemplos de enums y tipos literales"
-
-git add GLOSARIO.md
-git commit -m "Agregar glosario de TypeScript"
-
-git add package.json tsconfig.json .gitignore
-git commit -m "Agregar configuracion del proyecto"
-```
-
-Cuando esté terminado, volver a `main` y realizar el merge:
-
-```bash
-git switch main
-git merge develop
-```
-
-Para subir las ramas a GitHub, primero crear un repositorio vacío en GitHub y luego ejecutar:
-
-```bash
-git remote add origin URL_DE_TU_REPOSITORIO
-git push -u origin main
 git push -u origin develop
 ```
 
